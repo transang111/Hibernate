@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+html,body{
+	width:100%;
+	height:100%
+	font-family: "Roboto" !important;
+	font-size: 14px;
+}
+Img{
+	width: 100%
+}
+ul{
+	list-style-type: none;
+}
+.actived{
+	color: #DA7C79;
+}
+.material-textinput{
+	height: 50px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+.material-primary-button{
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000;
+}
+.container-signup-form1{
+	display: none;
+}
+/*End css đăng nhập */
+
+/* Css trang chủ */
+.circke-avatar{
+	width:32px !important;
+	height: 32px !important;
+	border-radius: 16px !important;
+	background-color: chocolate;
+	text-align: center;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#header{
+	height :750px;
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ), url("../Image/hinhnen.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+    background-size: cover;
+}
+.none_nav{
+	background: none !important;
+	border: none !important;
+}
+.navbar-center{
+	margin-left: 28% !important;
+}
+.navbar-nav>.active>a{
+	color: #0ef33f !important;
+	background: none !important;
+	font-weight: bold !important;
+}
+/* End Css trang chủ */
+.navbar-nav a{
+	color:white !important;
+}
+.navbar-brand>img{
+	height: 78px !important;
+}
+.open>a{
+	color: #0ef33f !important;
+	background: none !important;
+	font-weight: bold !important;
+}
+.dropdown-menu{
+	background-color:  #1ced52 !important;
+}
+.event_header{
+	text-align: center;
+	margin-top: 216px;
+}
+.event_header>span{
+	color: white;
+}
+.event_header>button{
+	color: white;
+	background-color:green;
+	border: green;
+}
+.icon{
+	width: 48px;
+	height: 48px;
+}
+#info{
+	text-align: center;
+	margin-top: 16px;
+}
+
+#info>span{
+	margin-top: 16px;
+}
+#title-sanpham{
+	TEXT-ALIGN: center;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.sanpham{
+	padding-bottom :16px;
+	margin-top: 30px;
+	background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.gia{
+	font-size: 14px;
+    color: red;
+    margin-bottom: 16px;
+}
+
+.sanpham img{
+	height: 256px;
+}
+/*chi tiet*/
+#header-chitiet{
+	background-color: black;
+	box-shadow: 0px 4px 7px #888888;
+	
+}
+.circel-giohang{
+	text-align: center;
+    position: absolute;
+    width: 28px;
+    height: 22px;
+    font-size: 16px;
+    border-radius: 40px;
+    background: red;
+    line-height: 22px;
+    margin-top: -41px;
+    margin-left: 43px;
+}
+/*end chi tiet*/
+
+
+/* FOOTER  */
+#footer {
+	margin-top: 102px;
+	color: white;
+	padding: 27px;
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ), url("../Image/biafooter.jpg") no-repeat center center;
+    background-size: cover;
+}
+#footer textarea{
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+#footer p{
+	text-align: center;
+}
+.title-footer{
+	font-size: 32px;
+}
+/**** Menu*****/
+/* .mymenu li>ul{
+	display: none;
+}
+.mymenu li:hover>ul{
+	display: block;
+} */
+
+.mymenu{
+	padding: 0;
+	margin: 0;
+}
+.mymenu li{
+	font-size: 16px;
+    font-weight: 400;
+    padding: 4px 0px;
+}
+
+/*****End menu******/
+@media (max-width: 575.98px) { .navbar-center{
+	margin-left: 0% !important;
+}
+ }
+
+@media (min-width: 576px) and (max-width: 961px) { .navbar-center{
+	margin-left: 0% !important;
+} }
+
+@media (min-width: 962px) and (max-width: 1255px) { .navbar-center{
+	margin-left: 4% !important;
+} }
